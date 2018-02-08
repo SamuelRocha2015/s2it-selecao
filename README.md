@@ -20,4 +20,4 @@ Para resolução desses itens foi utilizado:
 
 •	Criei a classe `BinaryTree` dentro da classe `QuestaoNove` para facilitar a compreensão do código.
 
-•	Criei um método `criaArvoreParaTeste` que monta o cenário de teste (para alterar os valores dos testes, basta modificar dentro dessa classe).
+•	Criei um método `criaArvoreParaTeste` que monta o cenário de teste (para alterar os valores dos testes, basta modificar os valores desse método).
