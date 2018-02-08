@@ -1,10 +1,10 @@
 public class QuestaoOito {
 
     public static void main(String[] args) {
-        System.out.println("Valor de Saída: " + gerarC(143, 32323));
+        System.out.println("Valor de Saída: " + geraC(143, 32323));
     }
 
-    public static int gerarC(int numA, int numB) {
+    public static int geraC(int numA, int numB) {
 
         String numAStr = String.valueOf(numA);
         String numBStr = String.valueOf(numB);
@@ -20,7 +20,7 @@ public class QuestaoOito {
             }
         }
 
-        //criei essas variaveis apenas para melhorar numAStr legibilidade do codigo evitando problemas de numeros mágicos
+        //criei essas variaveis apenas para melhorar legibilidade do codigo evitando problemas de numeros mágicos
         int valMaximo = 1000000;
         int retornoMaximo = -1;
         int numC = Integer.valueOf(numCStr.toString());
